@@ -2,10 +2,10 @@ title: Test video index
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://digitalpreservationisthk-new.github.io/test-video-index
+url: https://hkdigitalmemory.github.io/video-index-test-new
 
 aux_links:
-  Template Repository: https://github.com/digitalpreservationisthk-new/test-video-index
+  Template Repository: https://hkdigitalmemory.github.io/video-index-test-new
 
 permalink: pretty
 
