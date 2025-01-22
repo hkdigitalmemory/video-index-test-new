@@ -1,8 +1,22 @@
-title: Just the Docs Template
+title: Test video index
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://digitalpreservationisthk-new.github.io/test-video-index
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/digitalpreservationisthk-new/test-video-index
+
+permalink: pretty
+
+# https://just-the-docs.com/docs/configuration/#callouts
+callouts:
+  warning:
+    title: Warning
+    color: red
+  highlight:
+    title: Note
+    color: yellow
+
+# Enable or disable the site search
+search_enabled: true
