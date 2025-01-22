@@ -1,0 +1,15 @@
+<table>
+    <tr><td>Series Name</td><td>{{page.name}}</td></tr>
+    <tr><td>Video ID Prefix</td><td>{{page.id_prefix}}</td></tr>
+    <tr><td>Date Range</td><td>{{page.date_range}}</td></tr>
+    <tr><td>Location</td><td>{{page.location}}</td></tr>
+    <tr>
+        <td>Website</td>
+        <td>
+          {% if page.website %}
+            <a href="{{ page.website }}">{{ page.website | join: "<br>"}}</a>
+          {% endif %}
+        </td>
+      </tr>
+    <tr><td>Language</td><td>{{page.language}}</td></tr>
+</table>
